@@ -1,0 +1,165 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  width: 375px;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hamburger-icon {
+  position: relative;
+  margin-left: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  height: 30px;
+  width: 330px;
+}
+
+h1 {
+  margin-top: 128px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  width: 300px;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+
+.Main-Text {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 24px;
+}
+
+.Link {
+  height: 24px;
+  width: 117px;
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.log {
+  width: 110px;
+  color: #6070ff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  vertical-align: center;
+  display: inline-block;
+  margin-right: 87px;
+  margin-left: 24px;
+}
+
+.main {
+  align-items: center;
+  display: inline-block;
+  background-image: url(photo/header-shapes\ mobile.png);
+  width: 100%;
+  height: 681px;
+  margin-left: auto;
+}
+
+.icons {
+  width: 195px;
+  justify-content: space-around;
+  display: flex;
+  padding: 9px;
+  margin-left: 6px;
+}
