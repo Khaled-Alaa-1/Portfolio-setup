@@ -31,6 +31,10 @@ ol[role='list'] {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
@@ -41,7 +45,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  width: 375px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -80,14 +83,19 @@ select {
   }
 }
 
+@media (min-width: 375px) {
+  body {
+    width: 375px;
+  }
+}
+
 * {
-  background-color: #fff;
   font-family: 'Poppins', sans-serif;
 }
 
 .hamburger-icon {
   position: relative;
-  margin-left: 30px;
+  padding: 36px;
 }
 
 header {
@@ -96,7 +104,8 @@ header {
   align-items: center;
   margin-top: 40px;
   height: 30px;
-  width: 330px;
+  width: 375px;
+  background-color: #fff;
 }
 
 h1 {
@@ -125,13 +134,15 @@ h1 {
 
 .Link {
   height: 24px;
-  width: 117px;
   color: #7f8cff;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-left: 24px;
+  padding-left: 24px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  width: auto;
 }
 
 .log {
@@ -154,6 +165,8 @@ h1 {
   width: 100%;
   height: 681px;
   margin-left: auto;
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
 }
 
 .icons {
@@ -161,5 +174,286 @@ h1 {
   justify-content: space-around;
   display: flex;
   padding: 9px;
-  margin-left: 6px;
+  margin-left: 12px;
+  align-items: center;
+}
+
+/* "Works" section */
+.Works-section {
+  background-color: #e5e5e5;
+}
+
+.first {
+  margin-bottom: 28px;
+}
+
+.Tonic-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 596px;
+  border: 1px solid #dfe1e6;
+  margin-top: 114px;
+  border-radius: 16px;
+}
+
+.Tonic-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 596px;
+  border: 1px solid #dfe1e6;
+  margin-top: 88px;
+  border-radius: 16px;
+}
+
+.Tonic-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 596px;
+  border: 1px solid #dfe1e6;
+  margin-top: 88px;
+  border-radius: 16px;
+}
+
+.Tonic-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 596px;
+  border: 1px solid #dfe1e6;
+  margin-top: 88px;
+  border-radius: 16px;
+}
+
+.lsat-slice {
+  padding-bottom: 114px;
+}
+
+.end {
+  margin-top: 114px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-left: 16px;
+  width: 200px;
+  font-weight: 700;
+}
+
+.dot {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.Project-list {
+  display: flex;
+  padding-left: 16px;
+  width: 265px;
+  height: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Project-img {
+  padding: 16px;
+}
+
+ul .Project-info {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+ul .Project-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.text {
+  width: 295px;
+  height: 76px;
+  padding-left: 16px;
+}
+
+.Links-list {
+  display: flex;
+  width: 203px;
+  height: 24px;
+  padding-left: 16px;
+  gap: 8px;
+  justify-content: space-between;
+  color: rgba(96, 112, 255, 1);
+  align-items: center;
+}
+
+.links-1 {
+  font-weight: 500;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  width: 53px;
+  height: 24px;
+  align-items: center;
+  color: rgba(96, 112, 255, 1);
+  justify-content: center;
+  text-align: center;
+}
+
+.links-2 {
+  font-weight: 500;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  width: 45px;
+  height: 24px;
+  align-items: center;
+  color: rgba(96, 112, 255, 1);
+  justify-content: center;
+  text-align: center;
+}
+
+.links-3 {
+  font-weight: 500;
+  background-color: #ebebff;
+  border-radius: 8px;
+  font-size: 12px;
+  width: 89px;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  color: rgba(96, 112, 255, 1);
+  text-align: center;
+}
+
+.Project-link {
+  margin: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  justify-content: center;
+  color: rgba(96, 112, 255, 1);
+  font-weight: 500;
+}
+
+.About {
+  color: rgba(23, 43, 77, 1);
+  margin-top: 114px;
+  margin-bottom: 12px;
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: min-content;
+}
+
+.Project-link-2 {
+  margin: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 150px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  justify-content: center;
+  color: rgba(96, 112, 255, 1);
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 38px;
+}
+
+.the-Languages {
+  margin: 30px;
+}
+
+.Languages {
+  display: flex;
+  align-items: center;
+  margin: 6px;
+  background-color: #f7f7f9;
+  width: 303px;
+  height: 66.72px;
+  color: rgba(37, 56, 88, 1);
+}
+
+.Links {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  background-color: #9393eb;
+}
+
+.arrow {
+  width: 24px;
+  height: 21px;
+  padding-right: 42px;
+}
+
+.end-list-1 {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  padding-left: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.end-list-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.end-list-2 {
+  border-bottom: 1px solid #dfe1e6;
+  display: flex;
+  width: 327px;
+  height: 72px;
+  padding-left: 24px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.Languages-text {
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }

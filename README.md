@@ -50,9 +50,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-> Portfolio: setup and mobile first 
+>Portfolio: finish mobile version 
 
-**[: Portfolio setup and mobile first]** Portfolio I can put on it all my work and personal information
+**[: Portfolio: finish mobile version]** Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 
@@ -62,8 +62,6 @@ After you're finished please remove all the comments and instructions!
 </a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 
 <!-- Features -->
@@ -104,8 +102,6 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **khaled alaa**
 
 - GitHub: [Khaled-Alaa-1](https://github.com/Khaled-Alaa-1)
@@ -117,8 +113,6 @@ Clone this repository to your desired folder:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[make the project more professional]**
 - [ ] **[I will set up the mobile version]**
@@ -139,7 +133,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -149,7 +142,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
@@ -159,8 +151,8 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/blob/Portfolio-finish-mobile-version/MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
