@@ -422,7 +422,6 @@ h4 {
 .arrow {
   width: 24px;
   height: 21px;
-  padding-right: 42px;
 }
 
 .end-list-1 {
@@ -456,4 +455,11 @@ h4 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+}
+
+.contact-form {
+  background-color:#6070FF ;
+  background-image: url(photo/contact\ form\ shapes-mobile@2x.png);
+  width: 375px;
+height: 779px;
 }
