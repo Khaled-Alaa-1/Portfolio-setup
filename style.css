@@ -253,6 +253,7 @@ h1 {
 
 .end {
   margin-top: 114px;
+  height: 1125.15px;
 }
 
 h2 {
@@ -317,12 +318,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 53px;
-  height: 24px;
-  align-items: center;
   color: rgba(96, 112, 255, 1);
-  justify-content: center;
   text-align: center;
+  padding: 4px 12px;
 }
 
 .links-2 {
@@ -330,12 +328,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 45px;
-  height: 24px;
-  align-items: center;
   color: rgba(96, 112, 255, 1);
-  justify-content: center;
   text-align: center;
+  padding: 4px 12px;
 }
 
 .links-3 {
@@ -343,12 +338,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 89px;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
   color: rgba(96, 112, 255, 1);
   text-align: center;
+  padding: 4px 12px;
 }
 
 .Project-link {
@@ -364,6 +356,7 @@ ul .Project-name {
   justify-content: center;
   color: rgba(96, 112, 255, 1);
   font-weight: 500;
+  background-color: #fff;
 }
 
 .About {
@@ -422,7 +415,6 @@ h4 {
 .arrow {
   width: 24px;
   height: 21px;
-  padding-right: 42px;
 }
 
 .end-list-1 {
@@ -456,4 +448,101 @@ h4 {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+}
+
+.contact-form {
+  background-color: #6070ff;
+  background-image: url(photo/contact\ form\ shapes-mobile@2x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -103px;
+  border-top-left-radius: 5rem;
+  background-position: top right;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 24px 8px 24px;
+}
+
+.form-container h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  padding-top: 103px;
+  width: auto;
+}
+
+.form-container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-top: 12px;
+}
+
+.form-container form {
+  display: inline-block;
+  margin-top: 47px;
+  text-align: left;
+}
+
+.in-txt {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.area {
+  height: 170px;
+}
+
+.endline {
+  background-color: #0d151e;
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  border: none;
+  margin: auto;
+  margin-top: 32px;
+}
+
+button:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
+}
+
+.see-button {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  padding: 12px;
+  border: #7f8cff solid 1px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.see-button:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
+}
+
+.Project-link-2:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
 }
