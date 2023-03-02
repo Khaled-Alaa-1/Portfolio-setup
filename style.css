@@ -53,7 +53,8 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img, picture {
+img,
+picture {
   max-width: 100%;
   display: block;
 }
@@ -317,12 +318,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 53px;
-  height: 24px;
-  align-items: center;
   color: rgba(96, 112, 255, 1);
-  justify-content: center;
   text-align: center;
+  padding: 4px 12px;
 }
 
 .links-2 {
@@ -330,12 +328,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 45px;
-  height: 24px;
-  align-items: center;
   color: rgba(96, 112, 255, 1);
-  justify-content: center;
   text-align: center;
+  padding: 4px 12px;
 }
 
 .links-3 {
@@ -343,12 +338,9 @@ ul .Project-name {
   background-color: #ebebff;
   border-radius: 8px;
   font-size: 12px;
-  width: 89px;
-  align-items: center;
-  justify-content: center;
-  height: 24px;
   color: rgba(96, 112, 255, 1);
   text-align: center;
+  padding: 4px 12px;
 }
 
 .Project-link {
@@ -364,7 +356,7 @@ ul .Project-name {
   justify-content: center;
   color: rgba(96, 112, 255, 1);
   font-weight: 500;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .About {
@@ -464,7 +456,6 @@ h4 {
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: -103px;
-  background-position: top right;
   border-top-left-radius: 5rem;
   background-position: top right;
 }
@@ -481,9 +472,8 @@ h4 {
   font-size: 40px;
   line-height: 52px;
   color: #fff;
-  padding-top: 103px; 
+  padding-top: 103px;
   width: auto;
-  
 }
 
 .form-container p {
@@ -532,6 +522,7 @@ button:hover {
   color: white;
   cursor: pointer;
 }
+
 .see-button {
   font-size: 17px;
   font-weight: 500;
@@ -544,13 +535,13 @@ button:hover {
   background-color: #fff;
 }
 
-.see-button:hover{
+.see-button:hover {
   background: #6070ff;
   color: white;
   cursor: pointer;
 }
 
-.Project-link-2:hover{
+.Project-link-2:hover {
   background: #6070ff;
   color: white;
   cursor: pointer;

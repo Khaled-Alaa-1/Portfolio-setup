@@ -115,7 +115,7 @@ Clone this repository to your desired folder:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[make the project more professional]**
-- [ ] **[I will set up the mobile version]**
+- [ ] **[I will set up the desktop version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
