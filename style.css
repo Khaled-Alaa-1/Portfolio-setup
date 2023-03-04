@@ -84,15 +84,13 @@ select {
 }
 
 @media (min-width: 375px) {
-  body {
-    width: 375px;
-    
-  }
+  
 }
 .my-projects{
  display: grid; 
  justify-content: center;
  grid-row-gap: 88px;
+ padding-left: 24px;
 }
 
 * {
@@ -149,7 +147,6 @@ h1 {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   margin-top: 12px;
   margin-bottom: 12px;
-  width: auto;
 }
 
 .log {
@@ -169,11 +166,10 @@ h1 {
   align-items: center;
   display: inline-block;
   background-image: url(photo/header-shapes\ mobile.png);
-  width: 100%;
-  height: 681px;
-  margin-left: auto;
+  background-repeat: no-repeat;
   background-color: #fff;
   border-bottom-left-radius: 50px;
+  padding-bottom: 136px;
 }
 
 .icons {
@@ -556,9 +552,7 @@ button:hover {
 /* desktop version //////////////////// */
 
 @media screen and (min-width: 768px) {
-  body {
-   width: 100%;
-  }
+
 .hamburger-icon{
   display: none;
 }
@@ -573,10 +567,10 @@ header{
 }
 
 .header-links{
-  width: 259px ;
-  margin-right: 142px;
+  gap: 8px;
+  margin-right: 9.8%;
   margin-top: 15px;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   justify-content: space-around;
   align-items: center;
@@ -615,23 +609,35 @@ header{
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  width: 920px;
+  width: 63.8%;
 }
 .Tonic-1{
   height: 496px;
-  width: 1156px;
+  width: 80.3%;
   display: flex;
   flex-direction:row ;
   padding: 24px;
 }
 .Tonic-2{
-  width: 1156px;
+  height: 496px;
+  width: 80.3%;
+  display: flex;
+  flex-direction:row ;
+  padding: 24px;
 }
 .Tonic-3{
-  width: 1156px;
+  height: 496px;
+  width: 80.3%;
+  display: flex;
+  flex-direction:row ;
+  padding: 24px;
 }
 .Tonic-4{
-  width: 1156px;
+  height: 496px;
+  width: 80.3%;
+  display: flex;
+  flex-direction:row ;
+  padding: 24px;
 }
 .Project-img{
   display: none;
