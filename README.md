@@ -151,7 +151,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/blob/Portfolio-finish-mobile-version/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/MIT.md) licensed.
 
 
 

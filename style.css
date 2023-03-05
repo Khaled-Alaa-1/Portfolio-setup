@@ -554,6 +554,7 @@ button:hover {
     object-fit: cover;
     background-color: #fff;
     gap: 12px;
+    background-repeat: no-repeat;
   }
 
   .main h1 {
@@ -694,5 +695,9 @@ button:hover {
     background-position: 40px 40px;
     background-size: 96% 705px;
     background-color: rgba(96, 112, 255, 1);
+  }
+
+  .endline {
+    display: none;
   }
 }
