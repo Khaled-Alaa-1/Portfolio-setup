@@ -50,9 +50,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
->Portfolio: finish mobile version 
+>Portfolio: desktop version 
 
-**[: Portfolio: finish mobile version]** Portfolio I can put on it all my work and personal information
+**[: Portfolio: desktop version]** Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 
@@ -151,7 +151,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/blob/Portfolio-finish-mobile-version/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/MIT.md) licensed.
 
 
 
