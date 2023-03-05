@@ -50,9 +50,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
->Portfolio: finish mobile version 
+>Portfolio: desktop version 
 
-**[: Portfolio: finish mobile version]** Portfolio I can put on it all my work and personal information
+**[: Portfolio: desktop version]** Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 
