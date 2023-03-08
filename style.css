@@ -505,7 +505,7 @@ button:hover {
   cursor: pointer;
 }
 
-.hidden-label{
+.hidden-label {
   height: 0;
   width: 0;
   text-indent: -999em;
