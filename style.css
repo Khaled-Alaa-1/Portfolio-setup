@@ -505,6 +505,13 @@ button:hover {
   cursor: pointer;
 }
 
+.hidden-label{
+  height: 0;
+  width: 0;
+  text-indent: -999em;
+  display: none;
+}
+
 /* desktop version //////////////////// */
 
 @media screen and (min-width: 768px) {
