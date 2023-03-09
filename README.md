@@ -74,6 +74,14 @@ After you're finished please remove all the comments and instructions!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+- [Live Demo Link]( https://khaled-alaa-1.github.io/Portfolio-setup/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -110,13 +118,7 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-- [Live Demo Link]( https://khaled-alaa-1.github.io/Portfolio-setup/)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
@@ -159,7 +161,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Portfolio-setup/tree/main/MIT.md) licensed.
 
 
 
