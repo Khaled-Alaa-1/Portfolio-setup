@@ -116,6 +116,12 @@ Clone this repository to your desired folder:
 - Twitter: [@Khaled86756991](https://twitter.com/Khaled86756991)
 - LinkedIn: [Khaled Alaa](https://www.linkedin.com/in/khaled-alaa-594bb9256/)
 
+👤 **Daniel Villalba**
+
+- GitHub: [gdvl777](https://github.com/gdvl777)
+- LinkedIn: [Daniel Villalba Lynch](https://www.linkedin.com/in/dvillalba777/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
