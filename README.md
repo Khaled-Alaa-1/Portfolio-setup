@@ -23,7 +23,6 @@ After you're finished please remove all the comments and instructions!
 -->
 
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -116,10 +115,6 @@ Clone this repository to your desired folder:
 - Twitter: [@Khaled86756991](https://twitter.com/Khaled86756991)
 - LinkedIn: [Khaled Alaa](https://www.linkedin.com/in/khaled-alaa-594bb9256/)
 
-👤 **Mohammad ElShaer**
-
-- GitHub: [@githubhandle](https://github.com/ElShaer398)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-elshaer-29846b195/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
