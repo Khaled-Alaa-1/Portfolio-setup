@@ -550,6 +550,7 @@ button:hover {
   align-self: flex-end;
   padding-bottom: 12px;
 }
+
 /* desktop version //////////////////// */
 
 @media screen and (min-width: 768px) {
@@ -661,7 +662,6 @@ button:hover {
     gap: 25px;
     height: 924px;
     margin-bottom: 146px;
-    height: auto;
   }
 
   .About-Myself {
