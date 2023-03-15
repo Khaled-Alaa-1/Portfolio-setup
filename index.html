@@ -14,7 +14,17 @@
     />
   </head>
   <body>
-  <section class="Works-section">
+  <section class="Works-section"> 
+      <nav class="mobile-menu hidden">
+        <a class="close" href="#app-bar-and-headline-container">
+          <img src="photo/Icon - Cancel.png" alt="exit-to-main-page">
+        </a>
+        <ul class="toolbar-mobile-menu">
+          <li><a href="#my-projects"><h2>Portfolio</h2></a></li>
+          <li><a href="#About-Myself"><h2>About</h2></a></li>
+          <li><a href="#contact-form"><h2>Contact</h2></a></li>
+        </ul>
+      </nav>
     <section class="first">
       <header>
           <a href="" class="log">My Logo</a>
@@ -59,7 +69,7 @@
           </li>
         </ul>
   </section>
-  <section class="my-projects">
+  <section class="my-projects" id="my-projects">
     <section>
 
       <div class="Tonic">
@@ -166,7 +176,7 @@
 </section>
 </section>
 <section class="end">
-  <div class="About-Myself">
+  <div class="About-Myself" id="About-Myself">
   <h2 class="About">About <br>
     Myself</h2>
     <p class="Main-Text">
@@ -215,7 +225,7 @@
 </ul>
 </div>
 </section>
-<section class="contact-form">
+<section class="contact-form" id="contact-form">
   <div class="form-container">
       <h2>Contact me</h2>
       <p>If you have an application you are interested in 
@@ -234,5 +244,6 @@
       <hr class="endline">
   </div>
 </section>
+<script src="mobile.js"></script>   
   </body>
 </html>
