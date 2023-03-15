@@ -121,7 +121,6 @@ Clone this repository to your desired folder:
 - GitHub: [@githubhandle](https://github.com/ElShaer398)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-elshaer-29846b195/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
