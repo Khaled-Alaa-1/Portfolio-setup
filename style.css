@@ -209,8 +209,6 @@ h1 {
   gap: 12px;
 }
 
-
-
 .lsat-slice {
   padding-bottom: 114px;
 }
@@ -264,27 +262,11 @@ ul .Project-name {
   gap: 8px;
 }
 
-.links-1 {
-  font-weight: 500;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: rgba(96, 112, 255, 1);
-  text-align: center;
-  padding: 4px 12px;
-}
-
-.links-2 {
-  font-weight: 500;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: rgba(96, 112, 255, 1);
-  text-align: center;
-  padding: 4px 12px;
-}
-
-.links-3 {
+.links-1,
+.links-2,
+.links-3,
+.links-4,
+.links-5 {
   font-weight: 500;
   background-color: #ebebff;
   border-radius: 8px;
@@ -549,14 +531,14 @@ h4 {
 
 .blur {
   min-height: 100vh;
-    top: 0;
-    min-width: 100vw;
-    position: fixed;
-    background-color: rgba(193, 199, 208, .7);
-    backdrop-filter: blur(7px);
+  top: 0;
+  min-width: 100vw;
+  position: fixed;
+  background-color: rgba(193, 199, 208, 0.7);
+  backdrop-filter: blur(7px);
 }
 
-.popup-1{
+.popup-1 {
   border: 1px solid #dfe1e6;
   background-color: white;
   border-radius: 16px;
@@ -573,25 +555,25 @@ h4 {
   z-index: 1;
 }
 
-.pop-head h2{
-height: 63px;
-overflow-y: auto;
+.pop-head h2 {
+  height: 36px;
 }
 
-.popup-1 div{
+.popup-1 div {
   gap: 12px;
 }
 
-.text-pop{
+.text-pop {
   height: 220px;
   overflow-y: auto;
 }
-.popup-1 h2{
+
+.popup-1 h2 {
   width: 87.5%;
   padding-left: 0%;
 }
 
-.popup-1 .pop-close  {
+.popup-1 .pop-close {
   width: 24px;
   height: 24px;
   padding: 6px;
@@ -602,29 +584,29 @@ overflow-y: auto;
 }
 
 .links-4,
-.links-5{
+.links-5 {
   display: none;
 }
 
-.pop-head{
+.pop-head {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.pop{
+.pop {
   display: grid;
   gap: 12px;
 }
 
-.button-pop{
+.button-pop {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
 
-.button-pop button{
+.button-pop button {
   border: 1px solid rgba(96, 112, 255, 1);
   background-color: #fff;
   border-radius: 16px;
@@ -633,7 +615,6 @@ overflow-y: auto;
   padding: 12px 14px;
   gap: 12px;
   color: rgba(96, 112, 255, 1);
-  align-items: center;
   text-align: center;
   width: 145px;
   height: 48px;
@@ -845,12 +826,12 @@ overflow-y: auto;
   .endline {
     display: none;
   }
+
   .popup-1 {
     border: 1px solid #dfe1e6;
     background-color: white;
     border-radius: 16px;
     width: 80%;
-    height: 1083px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -863,4 +844,29 @@ overflow-y: auto;
     z-index: 1;
   }
 
+  .popup-1 .Tonic-img {
+    justify-content: center;
+    height: 50%;
+  }
+
+  .popup-1 .Project-img-2 {
+    display: block;
+    height: 586px;
+    width: 100%;
+  }
+
+  .pop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-pop {
+    width: 67%;
+  }
+
+  .links-4,
+  .links-5 {
+    display: inline-flex;
+    flex-direction: row;
+  }
 }
