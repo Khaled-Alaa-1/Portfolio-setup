@@ -48,14 +48,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
->Portfolio: desktop version 
+>Portfolio: validate contact form 
 
-**[: Portfolio: desktop version]** Portfolio I can put on it all my work and personal information
+**[: Portfolio: validate contact form]** Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 
 - HTML
 - CSS
+- JavaScript
 
 </a>
 
@@ -66,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Good HTML and CSS practices]**
+- **[Good HTML ,CSS and JS practices]**
 - **[This repository includes linters]**
 
 
