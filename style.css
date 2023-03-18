@@ -842,6 +842,7 @@ h4 {
     justify-content: space-between;
     row-gap: 12px;
     z-index: 1;
+    height: 92%;
   }
 
   .popup-1 .Tonic-img {
@@ -851,7 +852,6 @@ h4 {
 
   .popup-1 .Project-img-2 {
     display: block;
-    height: 586px;
     width: 100%;
   }
 

@@ -54,7 +54,6 @@ toolbarMobileMenu.addEventListener('click', () => {
 
 // see project ////////////////////////////////////////////
 const seeProject = document.querySelectorAll('.Project-link');
-const popup = document.querySelector('.popup');
 
 for (let i = 0; i < 4; i += 1) {
   const html = `    <div class="popup-1">
