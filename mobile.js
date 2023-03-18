@@ -6,7 +6,7 @@ const toolbarMobileMenu = document.querySelector('.toolbar-mobile-menu');
 const projects = [
   {
     image: 'photo/Snapshoot Portfolio (1).png',
-    name: 'components 1',
+    name: 'Tonic',
     languages: ['HTML', 'CSS', 'JavaScript', 'RUby', 'Bootstrap', 'Javascript', 'Bootstrap'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
     live: 'https://khaled-alaa-1.github.io/Portfolio-setup/',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     image: 'photo/Snapshoot Portfolio (2).png',
-    name: 'components 2',
+    name: 'Multi-Post Stories',
     languages: ['HTML', 'CSS', 'JavaScript', 'RUby', 'Bootstrap', 'Javascript', 'Bootstrap'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
     live: 'https://khaled-alaa-1.github.io/Portfolio-setup/',
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     image: 'photo/Snapshoot Portfolio (3).png',
-    name: 'components 3',
+    name: 'Tonic',
     languages: ['HTML', 'CSS', 'JavaScript', 'RUby', 'Bootstrap', 'Javascript', 'Bootstrap'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
     live: 'https://khaled-alaa-1.github.io/Portfolio-setup/',
@@ -30,7 +30,7 @@ const projects = [
   },
   {
     image: 'photo/Snapshoot Portfolio.png',
-    name: 'components 4',
+    name: 'Multi-Post Stories',
     languages: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
     live: 'https://khaled-alaa-1.github.io/Portfolio-setup/',
