@@ -5,7 +5,7 @@ const close = document.querySelector('.close');
 const toolbarMobileMenu = document.querySelector('.toolbar-mobile-menu');
 const projects = [
   {
-    image: 'photo/work-1.png',
+    image: 'photo/Snapshoot Portfolio (1).png',
     name: 'Keeping track of hundreds of components 1',
     languages: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
@@ -13,7 +13,7 @@ const projects = [
     github: 'https://github.com/Khaled-Alaa-1',
   },
   {
-    image: 'photo/work-1.png',
+    image: 'photo/Snapshoot Portfolio (2).png',
     name: 'Keeping track of hundreds of components 2',
     languages: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
@@ -21,7 +21,7 @@ const projects = [
     github: 'https://github.com/Khaled-Alaa-1',
   },
   {
-    image: 'photo/work-1.png',
+    image: 'photo/Snapshoot Portfolio (3).png',
     name: 'Keeping track of hundreds of components 3',
     languages: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
@@ -29,7 +29,7 @@ const projects = [
     github: 'https://github.com/Khaled-Alaa-1',
   },
   {
-    image: 'photo/work-1.png',
+    image: 'photo/Snapshoot Portfolio.png',
     name: 'Keeping track of hundreds of components 4',
     languages: ['Ruby on Rails', 'css', 'JavaScript', 'Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
@@ -57,9 +57,9 @@ const seeProject = document.querySelectorAll('.Project-link');
 const popup = document.querySelector('.popup');
 
 for (let i = 0; i <4; i += 1) {
-  const html = `    <div class="popup-1 hidden">
+  const html = `    <div class="popup-1">
   <div class="pop-head">
-    <h2>Tonic</h2>
+    <h2>${projects[i].name}</h2>
 <img class="exit" src="photo/x.png" alt="">  
 </div>
   <ul class="Project-list">
@@ -71,9 +71,10 @@ for (let i = 0; i <4; i += 1) {
   </ul>
   <div class="Tonic-img">
     <img  class="Project-img" src=${projects[i].image} alt="Snapshoot Tonic">
+    <img class="Project-img-2" src="photo/work-1.png" alt=" Work Tonic">
   </div>
   <div class="pop">
-  <p class="text-pop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+  <p class="text-pop">${projects[i].description}</p>
     <ul class="Links-list">
       <li class="links-1"><a href="">${projects[i].languages[4]}</a></li>
       <li class="links-2"><a href="">${projects[i].languages[5]}</a></li>
@@ -93,7 +94,7 @@ for (let i = 0; i <4; i += 1) {
     main.classList.toggle('blur');
     const popClose = document.querySelector('.exit');
     const popupWindow = document.querySelector('.popup-1');
-    popClose.addEventListener('click', () => {   
+    popClose.addEventListener('click', () => { 
       popupWindow.classList.toggle('hidden');
       main.classList.toggle('blur');
     });

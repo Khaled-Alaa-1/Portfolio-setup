@@ -19,7 +19,7 @@ toolbarMobileMenu.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden');
   body.classList.toggle('overflow');
 });
-{/* <div class="popup-window">
+{ <div class="popup-window">
   <img class="pop-close-desk" src="images/icons/pop-close-desk.svg" alt="pop-close-desk">
   <div class="pop-image-and-close">
     <img src=${projects[i].image} alt="exit" class="pop-close hidden"></img>
@@ -62,4 +62,4 @@ toolbarMobileMenu.addEventListener('click', () => {
       <img src="images/icons/see-source.svg" alt="" class="pop-see-source-image">
     </a>
   </div>
-  </div> */}
+  </div> }
