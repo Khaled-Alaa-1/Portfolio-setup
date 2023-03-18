@@ -104,6 +104,7 @@ select {
 .hamburger-icon {
   position: relative;
   padding: 36px;
+  user-select: none;
 }
 
 header {
@@ -181,6 +182,11 @@ h1 {
   align-items: center;
 }
 
+.work-info {
+  display: grid;
+  gap: 12px;
+}
+
 /* "Works" section */
 .Works-section {
   background-color: #e5e5e5;
@@ -197,13 +203,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   background-color: #fff;
-  height: 596px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-}
-
-.Tonic-img {
-  height: 100%;
+  padding: 16px;
+  gap: 12px;
 }
 
 .lsat-slice {
@@ -215,11 +218,10 @@ h1 {
   height: 1125.15px;
 }
 
-h2 {
+.h2-tonic {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  padding-left: 16px;
   width: 53.3%;
   font-weight: 700;
 }
@@ -232,14 +234,9 @@ h2 {
 
 .Project-list {
   display: flex;
-  padding-left: 16px;
   height: 32px;
   align-items: center;
   gap: 12px;
-}
-
-.Project-img {
-  padding: 16px;
 }
 
 .Project-img-2 {
@@ -258,40 +255,18 @@ ul .Project-name {
   line-height: 16px;
 }
 
-.text {
-  height: 76px;
-  padding-left: 16px;
-}
-
 .Links-list {
   display: flex;
   height: 24px;
-  padding-left: 16px;
   color: rgba(96, 112, 255, 1);
   gap: 8px;
 }
 
-.links-1 {
-  font-weight: 500;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: rgba(96, 112, 255, 1);
-  text-align: center;
-  padding: 4px 12px;
-}
-
-.links-2 {
-  font-weight: 500;
-  background-color: #ebebff;
-  border-radius: 8px;
-  font-size: 12px;
-  color: rgba(96, 112, 255, 1);
-  text-align: center;
-  padding: 4px 12px;
-}
-
-.links-3 {
+.links-1,
+.links-2,
+.links-3,
+.links-4,
+.links-5 {
   font-weight: 500;
   background-color: #ebebff;
   border-radius: 8px;
@@ -474,7 +449,7 @@ h4 {
   margin-top: 32px;
 }
 
-button:hover {
+.Project-link:hover {
   background: #6070ff;
   color: white;
   cursor: pointer;
@@ -548,6 +523,111 @@ button:hover {
 .close {
   align-self: flex-end;
   padding-bottom: 12px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.blur {
+  min-height: 100vh;
+  top: 0;
+  min-width: 100vw;
+  position: fixed;
+  background-color: rgba(193, 199, 208, 0.7);
+  backdrop-filter: blur(7px);
+}
+
+.popup-1 {
+  border: 1px solid #dfe1e6;
+  background-color: white;
+  border-radius: 16px;
+  width: 343px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 12px;
+  z-index: 1;
+}
+
+.pop-head h2 {
+  height: 36px;
+}
+
+.popup-1 div {
+  gap: 12px;
+}
+
+.text-pop {
+  height: 220px;
+  overflow-y: auto;
+}
+
+.popup-1 h2 {
+  width: 87.5%;
+  padding-left: 0%;
+}
+
+.popup-1 .pop-close {
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  position: relative;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.links-4,
+.links-5 {
+  display: none;
+}
+
+.pop-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pop {
+  display: grid;
+  gap: 12px;
+}
+
+.button-pop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-pop button {
+  border: 1px solid rgba(96, 112, 255, 1);
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  gap: 12px;
+  color: rgba(96, 112, 255, 1);
+  text-align: center;
+  width: 145px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  justify-content: space-around;
+}
+
+.button-pop button:hover {
+  background: #6070ff;
+  color: white;
+  cursor: pointer;
 }
 
 /* desktop version //////////////////// */
@@ -637,7 +717,6 @@ button:hover {
   .Project-img-2 {
     display: block;
     height: 100%;
-    padding: 24px;
   }
 
   .Project-info {
@@ -746,5 +825,48 @@ button:hover {
 
   .endline {
     display: none;
+  }
+
+  .popup-1 {
+    border: 1px solid #dfe1e6;
+    background-color: white;
+    border-radius: 16px;
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 12px;
+    z-index: 1;
+    height: 92%;
+  }
+
+  .popup-1 .Tonic-img {
+    justify-content: center;
+    height: 50%;
+  }
+
+  .popup-1 .Project-img-2 {
+    display: block;
+    width: 100%;
+  }
+
+  .pop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .text-pop {
+    width: 67%;
+  }
+
+  .links-4,
+  .links-5 {
+    display: inline-flex;
+    flex-direction: row;
   }
 }
