@@ -104,7 +104,6 @@ Clone this repository to your desired folder:
 
 
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
