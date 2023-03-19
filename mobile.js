@@ -105,15 +105,15 @@ for (let i = 0; i < 4; i += 1) {
   });
   // validate contact form //////////////
 }
-  const submit = document.querySelector('#submit');
-  const errorMessage = document.querySelector('#error-message');
-  submit.addEventListener('click', (event) => {
-    const emailInput = document.querySelector('#email');
-    const emailValue = emailInput.value;
-    if (emailValue !== emailValue.toLowerCase()) {
-      event.preventDefault();
-      errorMessage.innerHTML = '<span class="error-star">*</span>Email address must be in lowercase.';
-      return false;
-    }
-    return true;
-  });
+const submit = document.querySelector('#submit');
+const errorMessage = document.querySelector('#error-message');
+submit.addEventListener('click', (event) => {
+  const emailInput = document.querySelector('#email');
+  const emailValue = emailInput.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = '<span class="error-star">*</span>Email address must be in lowercase.';
+    return false;
+  }
+  return true;
+});
