@@ -48,14 +48,15 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
->Portfolio: desktop version 
+>Portfolio: validate contact form 
 
-**[: Portfolio: desktop version]** Portfolio I can put on it all my work and personal information
+**[: Portfolio: validate contact form]** Portfolio I can put on it all my work and personal information
 
 ## 🛠 Built With <a name="built-with">
 
 - HTML
 - CSS
+- JavaScript
 
 </a>
 
@@ -66,7 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Good HTML and CSS practices]**
+- **[Good HTML ,CSS and JS practices]**
 - **[This repository includes linters]**
 
 
@@ -113,6 +114,11 @@ Clone this repository to your desired folder:
 - GitHub: [Khaled-Alaa-1](https://github.com/Khaled-Alaa-1)
 - Twitter: [@Khaled86756991](https://twitter.com/Khaled86756991)
 - LinkedIn: [Khaled Alaa](https://www.linkedin.com/in/khaled-alaa-594bb9256/)
+
+👤 **Mohammad Elshaer**
+
+- GitHub: [Khaled-Alaa-1](https://github.com/ElShaer398)
+- LinkedIn: [Khaled Alaa](https://www.linkedin.com/in/mohammad-elshaer-29846b195/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
